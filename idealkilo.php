@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BKI HESAPLAYICI</title>
+  <title>İDEAL KİLO HESAPLAMA</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  
+<a href="anasayfa.html" style="position: absolute; top: 10px; right: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none;">Ana Sayfa</a>
   <header class="mt-3 text-center row">
 
     <div class="col-sm-10 align-right">
 	<hr>
-      <h1 class="text-secondary " style="color:black">BEDEN KÜTLE İNDEKSİ HESAPLAMA</h1>
+      <h1 class="text-secondary " style="color:black">İDEAL KİLO HESAPLAMA</h1>
 	  <hr>
     </div>
   </header>
@@ -37,7 +39,7 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-10 align-right">
           <button type="submit" class="btn btn-primary btn-block" name="Hesapla"
-          >BKI Hesaplama
+          > Hesapla
         </button>
         </div>
       </div>

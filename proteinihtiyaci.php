@@ -10,6 +10,7 @@
 
 </head>
 <body>
+<a href="anasayfa.html" style="position: absolute; top: 10px; right: 10px; padding: 10px 20px; background-color:  rgba(39, 169, 6, 0.2); color: white; text-decoration: none;">Ana Sayfa</a>
   <header class="mt-3 text-center row">
 
     <div class="col-sm-10 align-right">
@@ -64,25 +65,23 @@ Yağsız Vücut Ağırlığı (KADIN):= (0.65 * Boy[cm]) – 50.74
   $erkekyagsizagirlik= (0.73 * $boy) -59.42;
   $kadinyagsizagirlik= (0.65 * $boy) -50.74;
   if ($_POST['sex'] == "erkek"){
-    echo "Günlük protein ihtiyacınız : ".round($erkekyagsizagirlik *1.50,1). " gr ile " . round($erkekyagsizagirlik*2.50,1)." gr arasında";
+    echo "Günlük protein ihtiyacınız : ".round($erkekyagsizagirlik *2,1). " gr ile " . round($erkekyagsizagirlik*2.50,1)." gr arasında";
 
   }
   elseif ($_POST['sex'] == "kadın"){
-    echo  "Günlük protein ihtiyacınız : ".$kadinyagsizagirlik*2.50 . " gr ile " . $kadinyagsizagirlik*1.50." gr arasında";
+    echo  "Günlük protein ihtiyacınız : ". $kadinyagsizagirlik*2 ." gr ile " . $kadinyagsizagirlik*2.5." gr arasında";
   }
   else{
     echo "Lütfen cinsiyeti kadın veya erkek olarak giriniz";
   }
-}
 
 //Boy-100-[(boy-150)/4] ideal kilo formulu
-
+}
 $boy= filter_var(htmlentities(floatval($_POST['boy'])), FILTER_SANITIZE_NUMBER_FLOAT);
 $kilo = filter_var(htmlentities(floatval($_POST['kilo'])), FILTER_SANITIZE_NUMBER_FLOAT);
 $sex = $_POST['sex'];
 calculate($boy, $kilo ,$sex);
 ?>
-
     </div>
     </div>
   </div>
