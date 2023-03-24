@@ -1,0 +1,119 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+height: 8vh;
+width: 100%;
+background: rgba(39, 169, 6, 0.2);
+
+color: whitesmoke;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+
+
+    
+
+
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 929px;
+    height: 400px;
+    left: calc(50% - 929px/2 - 0.5px);
+    top: 314px;
+    
+    background: rgba(39, 169, 6, 0.1);
+    border-radius: 50px;
+}
+.navbar h2{
+color: #000;
+margin-left: 12rem;
+}
+.navbar i{
+color: #000;}
+
+
+
+.navbar a{
+color: #27A906;
+position: absolute;
+width: 175px;
+height: 70.69px;
+right: 66px;
+top: 25px;
+
+}
+.navmar img{
+    position: absolute;
+    width: 175px;
+    height: 70.69px;
+    left: 100px;
+    top: 25px;
+}
+.navbar div h1{
+    width: 829px;
+    height: 76px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 76px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #000000;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.navbar div h3{
+    width: 829px;
+height: 76px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+    } 
+
+.navbar   button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+gap: 20px;
+
+width: 283px;
+height: 68px;
+
+background: #27A906;
+border-radius: 48px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
