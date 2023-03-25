@@ -9,6 +9,17 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<nav>
+    <div class="logo">
+      <p><img src="./images/attachment_124010263-removebg-preview (1).png" alt=""></p>
+      
+
+    </div>
+    
+
+
+
+  </nav>
   
 <a href="anasayfa.html" style="position: absolute; top: 10px; right: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none;">Ana Sayfa</a>
   <header class="mt-3 text-center row">
