@@ -1,0 +1,195 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px 30px;
+gap: 10px;
+
+width: 100%;
+height: 110.69px;
+
+background: rgba(39, 169, 6, 0.2);
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+nav .logo p img{
+/* attachment_124010263-removebg-preview 1 */
+
+
+width: 300px;
+height: 200.69px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+header .sema{
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+/*justify-content: center;
+align-items: center;*/
+margin: auto;
+margin-top: 150px;
+padding: 50px;
+gap: 50px;
+
+width: 769px;
+height: 496px;
+
+background: rgba(39, 169, 6, 0.1);
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+header h1{
+width: 669px;
+height: 152px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 76px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+header h3{
+    width: 669px;
+    height: 76px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+header button{
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+/*justify-content: center;
+align-items: center;*/
+margin: auto;
+margin-top: -130px;
+
+padding: 10px 30px;
+gap: 20px;
+
+width: 300px;
+height: 68px;
+
+background: #27A906;
+border-radius: 48px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+
+
+
+
+
+}
+header button h4{
+    width: 300px;
+    height: 40px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+header .button button a  i {
+        
+width: 1rem;
+height: 1rem ;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+    
