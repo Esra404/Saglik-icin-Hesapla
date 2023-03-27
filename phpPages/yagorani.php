@@ -22,8 +22,7 @@
   <header class="mt-3 text-center row">
     <div class="col-sm-10 align-right">
 	
-      <h4 class="text-secondary  " 
-    >YAĞ ORANI HESAPLAMA</h4>
+      <h4 class="text-secondary  ">YAĞ ORANI HESAPLAMA</h4>
 	  
     </div>
   </header>

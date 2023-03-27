@@ -168,7 +168,7 @@
     <div class="row"></div>
       <div class="col-sm-2"></div>
       <div class="col-sm-10 align-right">
- <!--  <?php
+<!--  <?php
    
 function calculate($uzunluk, $kilo)
 {
@@ -211,7 +211,7 @@ function calculate($uzunluk, $kilo)
 $uzunluk = filter_var(htmlentities(floatval($_POST['BoyUzunluğu'])), FILTER_SANITIZE_NUMBER_FLOAT);
 $kilo = filter_var(htmlentities(floatval($_POST['Kilo'])), FILTER_SANITIZE_NUMBER_FLOAT);
 calculate($uzunluk, $kilo);
-?> -->
+?> 
 
     </div>
     </div>
