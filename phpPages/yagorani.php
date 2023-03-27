@@ -17,26 +17,13 @@
 
     </div>
   </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <header>
 <div class="sema">
   <header class="mt-3 text-center row">
     <div class="col-sm-10 align-right">
 	
-      <h1 class="text-secondary  " 
-    >YAĞ ORANI HESAPLAMA</h1>
+      <h4 class="text-secondary  " 
+    >YAĞ ORANI HESAPLAMA</h4>
 	  
     </div>
   </header>
@@ -50,8 +37,9 @@
           position: absolute;
           width: 400px;
           height: 63px;
-          left: 435px;
-          top: 301px;
+         margin-top:6rem;
+         margin-left: -3rem;
+          
           
           background: #EDEDED;
           border: 1px solid #000000;
@@ -64,22 +52,53 @@
       <div class="form-group row">
         <label class="col-sm-2 col-form-label" for="height" style="color:rgb(210, 29, 29)" ></label>
         <div class="col-sm-10">
-          <input class="form-control" id="boyuncevresi" name="boyun"    style=""       type="number" placeholder="
-         Boyun Çevrenizi santimetre olarak girin.">
+          <input class="form-control" id="boyuncevresi" name="boyun"    style=" box-sizing: border-box;
+
+          position: absolute;
+          width: 400px;
+          height: 63px;
+          margin-top:10rem;
+         margin-left: -3rem;
+          
+          
+          background: #EDEDED;
+          border: 1px solid #000000;
+          border-radius: 50px;"       type="number" placeholder="
+         Boyun Çevrenizi Giriniz (cm)">
         </div>
       </div>
       <div class="form-group row">
         <label class="col-sm-2 col-form-label" for="height" style="color:rgb(210, 29, 29)" ></label>
         <div class="col-sm-10">
-          <input class="form-control" id="kalcacevresi" name="kalca" type="number" placeholder="
-          Kalça Çevrenizi santimetre olarak girin.">
+          <input class="form-control" id="kalcacevresi" name="kalca" type="number" style="box-sizing: border-box;
+
+          position: absolute;
+          width: 400px;
+          height: 63px;
+          margin-top:14rem;
+         margin-left: -3rem;
+          
+          background: #EDEDED;
+          border: 1px solid #000000;
+          border-radius: 50px;" placeholder="
+          Kalça Çevrenizi Giriniz (cm)">
         </div>
 </div>
       <div class="form-group row">
         <label class="col-sm-2 col-form-label" for="height" style="color:rgb(210, 29, 29)" ></label>
         <div class="col-sm-10">
-          <input class="form-control" id="bel" name="bel" type="number" placeholder="
-          Bel Çevrenizi santimetre olarak girin.">
+          <input class="form-control" id="bel" name="bel" type="number" style="box-sizing: border-box;
+
+          position: absolute;
+          width: 400px;
+          height: 63px;
+          margin-top:18rem;
+         margin-left: -3rem;
+          
+          background: #EDEDED;
+          border: 1px solid #000000;
+          border-radius: 50px;" placeholder="
+          Bel Çevrenizi Girin (cm)">
         </div>
         
 
@@ -87,7 +106,17 @@
       <div class="form-group row">
         <label class="col-sm-2 col-form-label" for="height" style="color:rgb(210, 29, 29)" ></label>
         <div class="col-sm-10">
-          <input class="form-control" id="sex" name="sex" type="text" placeholder="
+          <input class="form-control" id="sex" name="sex" type="text"  style="box-sizing: border-box;
+
+          position: absolute;
+          width: 400px;
+          height: 63px;
+          margin-top:22rem;
+         margin-left: -3rem;
+          
+          background: #EDEDED;
+          border: 1px solid #000000;
+          border-radius: 50px;" placeholder="
           Cinsiyetinizi Girin .">
         </div>
       </div>
@@ -97,8 +126,32 @@
       <div class="form-group mt-3 row">
         <div class="col-sm-2"></div>
         <div class="col-sm-10 align-right">
-          <button type="submit" class="btn btn-primary btn-block" name="Hesapla"
-          > <h5>Yağ Oranı Hesapla</h5>
+          <button type="submit" style="position: absolute;
+          width: 258px;
+          height: 68px;
+          margin-top :23rem;
+         margin-left: 2rem;
+          
+          background: #27A906;
+          border-radius: 48px;" name="Hesapla"
+          > <h5 style="
+          position: absolute;
+          width: 130px;
+          height: 40px;
+          margin-top :-1.4rem;
+         margin-left: 2.7rem;
+          
+          
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 40px;
+          /* identical to box height, or 133% */
+          
+          letter-spacing: 0.1em;
+          
+          color: #ffffff;"> Hesapla</h5>
         </button>
         </div>
       </div>
