@@ -63,7 +63,7 @@ padding: 45px 50px;
 gap: 43px;
 
 width: 500px;
-height: 463px;
+height: 600px;
 margin-left: 47rem;
 margin-top: 8rem;
 
@@ -96,4 +96,22 @@ flex-grow: 0;}
         
         color: #000000;
         
+}
+.sonuc
+{
+    position: absolute;
+    color: #05a000;
+    margin-top: -10rem;
+    margin-left: 47rem;
+    height: 5rem;
+    width: 30rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Rubik';
+    background: rgba(255, 255, 254, 0.1);
+    border-radius: 50px;
+
+
+
+
 }
