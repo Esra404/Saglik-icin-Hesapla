@@ -55,6 +55,7 @@
     <div class="row"></div>
       <div class="col-sm-2"></div>
       <div class="col-sm-10 align-right">
+<div class=" sonuc">
       <?php
 function calculate($boy, $kilo ,$sex)
 {
@@ -66,14 +67,14 @@ Yağsız Vücut Ağırlığı (KADIN):= (0.65 * Boy[cm]) – 50.74
   $erkekyagsizagirlik= (0.73 * $boy) -59.42;
   $kadinyagsizagirlik= (0.65 * $boy) -50.74;
   if ($_POST['sex'] == "erkek"){
-    echo "Günlük protein ihtiyacınız : ".round($erkekyagsizagirlik *1.50,1). " gr ile " . round($erkekyagsizagirlik*2.50,1)." gr arasında";
+    echo "Günlük Protein İhtiyacınız : ".round($erkekyagsizagirlik *1.50,1). " gr ile " . round($erkekyagsizagirlik*2.50,1)." gr arasında";
 
   }
   elseif ($_POST['sex'] == "kadın"){
-    echo  "Günlük protein ihtiyacınız : ".$kadinyagsizagirlik*2.50 . " gr ile " . $kadinyagsizagirlik*1.50." gr arasında";
+    echo  "Günlük Protein İhtiyacınız : ".$kadinyagsizagirlik*2.50 . " gr ile " . $kadinyagsizagirlik*1.50." gr arasında";
   }
   else{
-    echo "Lütfen cinsiyeti kadın veya erkek olarak giriniz";
+    echo "Lütfen Cinsiyeti Kadın veya Erkek Olarak Giriniz";
   }
 }
 
@@ -84,6 +85,7 @@ $kilo = filter_var(htmlentities(floatval($_POST['kilo'])), FILTER_SANITIZE_NUMBE
 $sex = $_POST['sex'];
 calculate($boy, $kilo ,$sex);
 ?>
+</div>
 
     </div>
     </div>

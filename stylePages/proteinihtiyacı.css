@@ -56,9 +56,11 @@ header .sema{
     
 position: absolute;
 width: 500px;
-height: 535px;
+height: 650px;
 left: calc(50% - 500px/2 - 33px);
 top: 231px;
+
+
 
 background: rgba(39, 169, 6, 0.1);
 border-radius: 50px;
@@ -71,6 +73,7 @@ width: 430px;
 height: 40px;
 left: 47px;
 top: 45px;
+margin-left: 3rem;
 
 font-family: 'Rubik';
 font-style: normal;
@@ -141,5 +144,33 @@ letter-spacing: 0.1em;
 color: #FFFFFF;
 }
 
+.sonuc{
 
+    position: absolute;
+
+    color: #05a000;
+    
+    margin-top: 40rem;
+    margin-left: 41.5rem;
+    height: 5rem;
+    width: 30rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Rubik';
+    
+
+
+    
+    
+    
+    background: rgba(255, 255, 254, 0.1);
+    border-radius: 50px;
+
+
+
+
+
+
+
+}
     
