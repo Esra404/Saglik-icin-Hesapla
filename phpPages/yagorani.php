@@ -161,7 +161,7 @@
       <div class="col-sm-10 align-right">
 </div>
 <div>
-  <!--   
+
       <?php
 /*
 
@@ -196,7 +196,6 @@ calculate($boy, $bel, $boyun, $sex,$kalca);
 
 
 
--->
 </div>
     </div>
     </div>
