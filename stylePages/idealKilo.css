@@ -52,3 +52,50 @@
     order: 0;
     flex-grow: 0;
     }
+    header .sema{
+    
+        position: absolute;
+        width: 500px;
+        height: 650px;
+        left: calc(50% - 500px/2 - 33px);
+        top: 231px;
+        
+        
+        
+        background: rgba(39, 169, 6, 0.1);
+        border-radius: 50px;
+            
+            }
+            
+        header .sema h4{
+        position: absolute;
+        width: 430px;
+        height: 40px;
+        left: 47px;
+        top: 45px;
+        margin-left: 3rem;
+        
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+        /* identical to box height, or 167% */
+        
+        letter-spacing: 0.1em;
+        
+        color: #000000;
+        
+        }
+        header .box{
+
+            margin-top: 10rem;
+            margin-right: 20rem;
+      
+        
+        
+        
+        
+        
+        
+        }

@@ -45,8 +45,10 @@
     <div class="row"></div>
       <div class="col-sm-2"></div>
       <div class="col-sm-10 align-right">
+
+
       <?php
-function calculate($uzunluk, $kilo)
+ function calculate($uzunluk, $kilo)
 {
     $idealkilo = ($uzunluk - 100 - (($uzunluk - 150) / 4));
     $message1 = "İdeal kilonuzun üzerindesiniz kilo vermek ve ideal kilonuza ulaşmak için bunları yapabilirsiniz:<br>
