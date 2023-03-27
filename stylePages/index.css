@@ -52,7 +52,7 @@
     order: 0;
     flex-grow: 0;
     }
-    header .sema{
+.sema{
        
 /* Auto layout */
 
@@ -64,6 +64,8 @@ gap: 43px;
 
 width: 500px;
 height: 463px;
+margin-left: 47rem;
+margin-top: 8rem;
 
 background: rgba(39, 169, 6, 0.1);
 border-radius: 50px;
@@ -74,13 +76,14 @@ flex: none;
 order: 1;
 flex-grow: 0;}
             
-        header .sema h4{
+.sema h4{
         position: absolute;
         width: 430px;
         height: 40px;
         left: 47px;
         top: 45px;
-        margin-left: 1.1rem;
+        margin-left: -15rem;
+        margin-top: -5rem;
         
         font-family: 'Rubik';
         font-style: normal;
@@ -93,4 +96,4 @@ flex-grow: 0;}
         
         color: #000000;
         
-        }
+}

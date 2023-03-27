@@ -168,40 +168,30 @@
     <div class="row"></div>
       <div class="col-sm-2"></div>
       <div class="col-sm-10 align-right">
-<!--  <?php
+        
+  <div class="sonuc">
+  <?php
    
 function calculate($uzunluk, $kilo)
 {
     $idealkilo = ($uzunluk - 100 - (($uzunluk - 150) / 4));
-    $message1 = "İdeal kilonuzun üzerindesiniz 
-        1) Gün içindeki hareketlerinizi arttırın.
-        2) Dengeli beslenin şeker tuz karbonhidrat tüketiminize dikkat edin 
-        3) Geç saatlerde yemek yemeyin. 
-        4) Daha çok su için. 
-        5) Kilo vermek için doğal, işlenmemiş gıdaları tercih edin.";
-        kilo vermek ve ideal kilonuza ulaşmak için bunları yapabilirsiniz:
+    $message1 = "İdeal kilonuzun üzerindesiniz :";
+        
       
       
 
-    $message2 = "İdeal kilonuzun altınızdasınız 
-     1)Sağlıklı Karbonhidratları Tercih Edin.
-        2)Yemekle Beraber Sıvı Tüketmeyin.
-        3)Sık Sık Beslenin. 
-        4)Hacmi Küçük Kalorisi Yüksek Besinleri Tüketin. 
-        5)Kaliteli bir uykuyu ihmal etmeyin 
-
-        kilo almak ve ideal kilonuza ulaşmak için bunları yapablirsiniz: 
+    $message2 = "İdeal kilonuzun altınızdasınız:" ;
       
-      ";
+      
     $fark = $idealkilo - $kilo;
     $index = ($kilo / $uzunluk / $uzunluk) * 10000;
     $bmiRounded = round($index, 1);
 
     if ($idealkilo - $kilo < 0) {
-        echo "<h4>İdeal kilonuz = " . "$idealkilo" . "<br>" . "İdeal kilonuza ulaşmanız için vermeniz gereken " . abs($fark) . " kg kaldı </h4>";
+        echo "<h4>İdeal kilonuz = " . "$idealkilo" .  "İdeal kilonuza ulaşmanız için vermeniz gereken " . abs($fark) . " kg kaldı </h4>";
         echo "<h4>$message1</h4>";
     } else {
-        echo "<h4>İdeal kilonuz = " . "$idealkilo" . "<br>" . "İdeal kilonuza ulaşmanız için almanız gereken " . "$fark" . " kg kaldı </h4>";
+        echo "<h4>İdeal kilonuz = " . "$idealkilo" . "İdeal kilonuza ulaşmanız için almanız gereken " . "$fark" . " kg kaldı </h4>";
         echo "<h4>$message2</h4>";
     }
 }
@@ -212,7 +202,7 @@ $uzunluk = filter_var(htmlentities(floatval($_POST['BoyUzunluğu'])), FILTER_SAN
 $kilo = filter_var(htmlentities(floatval($_POST['Kilo'])), FILTER_SANITIZE_NUMBER_FLOAT);
 calculate($uzunluk, $kilo);
 ?> 
-
+</div>
     </div>
     </div>
   </div>

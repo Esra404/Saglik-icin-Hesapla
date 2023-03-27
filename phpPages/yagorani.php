@@ -161,7 +161,7 @@
       <div class="col-sm-10 align-right">
 </div>
 <div>
-
+  
       <?php
 /*
 
@@ -169,11 +169,12 @@
 WOMEN % body fat = 163.205 x log10 (waist + hip – neck) – 97.684 x log10 (height) – 78.387 
 MAN  % body fat = 86.010 x log10 (abdomen – neck) – 70.041 x log10 (height) + 36.76  
  */
-function calculate($boy, $bel, $boyun,$sex, $kalca)
+function calculate($boy, $boyun, $bel,$kalca, $sex)
 {
   $kadinyağorani = 163.205 * log10($bel + $kalca - $boyun) - 97.684 * log10($boy) - 88.387;
   $erkekyagorani = 86.010 *log10($bel - $boyun) - 70.041 * log10($boy) + 36.76 ;
   if ($_POST['sex']== "erkek"){
+   
     echo "Yağ oranı sonucunuz :". round($erkekyagorani ,2);
   }
   elseif($_POST['sex']== "kadın"){
@@ -188,12 +189,8 @@ $boyun = filter_var(htmlentities(floatval($_POST['boyun'])));
 $bel = filter_var(htmlentities(floatval($_POST['bel'])));
 $kalca = filter_var(htmlentities(floatval($_POST['kalca'])));
 $sex = $_POST['sex'];
-calculate($boy, $bel, $boyun, $sex,$kalca);
+calculate($boy, $boyun, $bel,$kalca, $sex);
 ?>
-
-
-
-
 
 
 </div>
