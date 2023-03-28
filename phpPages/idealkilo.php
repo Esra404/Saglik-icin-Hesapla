@@ -11,7 +11,10 @@
 </head>
 
 <body>
+  
   <nav>
+  <a href="../secim.html" style="position: absolute; top: 10px; right: 10px; padding: 30px 20px;  color:green; text-decoration: none;">Ana Sayfa</a>
+
     <div class="logo">
       <p> <img src="../images/attachment_124010263-removebg-preview (1).png" alt=""> </p>
     </div>
@@ -188,10 +191,10 @@ function calculate($uzunluk, $kilo)
     $bmiRounded = round($index, 1);
 
     if ($idealkilo - $kilo < 0) {
-        echo "<h4>İdeal kilonuz = " . "$idealkilo" .  "İdeal kilonuza ulaşmanız için vermeniz gereken " . abs($fark) . " kg kaldı </h4>";
+        echo "<h4>İdeal kilonuz =" . "$idealkilo" .  "kilonuza ulaşmanız için vermeniz gereken " . abs($fark) . " kg kaldı </h4>";
         echo "<h4>$message1</h4>";
     } else {
-        echo "<h4>İdeal kilonuz = " . "$idealkilo" . "İdeal kilonuza ulaşmanız için almanız gereken " . "$fark" . " kg kaldı </h4>";
+        echo "<h4>İdeal kilonuz =" . "$idealkilo" . "İdeal kilonuza ulaşmanız için almanız gereken " . "$fark" . " kg kaldı </h4>";
         echo "<h4>$message2</h4>";
     }
 }

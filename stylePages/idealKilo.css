@@ -95,10 +95,16 @@
         }
 .sonuc3{
           position: absolute;
-          color: #00fc00;
+          text-align:left;
+          color: #09c213;
           display: flex;
-          left: 23rem;
-          top: 10rem;
+          left: 43rem;
+          top: 42rem;
+          width: 26rem;
+          height: 23rem;
+          text-align: center;
+          font-size: 1.4rem;
+          font-family: 'Rubik';
 
            
         
