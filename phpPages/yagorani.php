@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BKI HESAPLAYICI</title>
+  <title>YAĞ ORANI HESAPLAYICI</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="../stylePages/yagOrani.css">
 </head>
@@ -22,7 +22,8 @@
   <header class="mt-3 text-center row">
     <div class="col-sm-10 align-right">
 	
-      <h4 class="text-secondary  ">YAĞ ORANI HESAPLAMA</h4>
+      <h4 class="text-secondary  " style="
+      margin-left: -1.3rem;">YAĞ ORANI HESAPLAMA</h4>
 	  
     </div>
   </header>
@@ -36,7 +37,7 @@
           position: absolute;
           width: 400px;
           height: 63px;
-         margin-top:6rem;
+         margin-top:5rem;
          margin-left: -3rem;
           
           
@@ -56,7 +57,7 @@
           position: absolute;
           width: 400px;
           height: 63px;
-          margin-top:10rem;
+          margin-top:9rem;
          margin-left: -3rem;
           
           
@@ -74,7 +75,7 @@
           position: absolute;
           width: 400px;
           height: 63px;
-          margin-top:14rem;
+          margin-top:13rem;
          margin-left: -3rem;
           
           background: #EDEDED;
@@ -91,7 +92,7 @@
           position: absolute;
           width: 400px;
           height: 63px;
-          margin-top:18rem;
+          margin-top:17rem;
          margin-left: -3rem;
           
           background: #EDEDED;
@@ -110,7 +111,7 @@
           position: absolute;
           width: 400px;
           height: 63px;
-          margin-top:22rem;
+          margin-top:21rem;
          margin-left: -3rem;
           
           background: #EDEDED;
@@ -128,7 +129,7 @@
           <button type="submit" style="position: absolute;
           width: 258px;
           height: 68px;
-          margin-top :23rem;
+          margin-top :22rem;
          margin-left: 2rem;
           
           background: #27A906;
@@ -161,7 +162,7 @@
       <div class="col-sm-10 align-right">
 </div>
 <div>
-  
+  <div class="sonuc" >
       <?php
 /*
 
@@ -192,7 +193,7 @@ $sex = $_POST['sex'];
 calculate($boy, $boyun, $bel,$kalca, $sex);
 ?>
 
-
+</div>
 </div>
     </div>
     </div>

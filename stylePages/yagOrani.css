@@ -52,13 +52,14 @@
     order: 0;
     flex-grow: 0;
     }
-    header .sema{
+.sema{
     
         position: absolute;
         width: 500px;
-        height: 700px;
+        height: 900px;
         left: calc(50% - 500px/2 - 33px);
-        top: 231px;
+        top: 225px;
+
         
         
         
@@ -67,7 +68,7 @@
             
             }
             
-        header .sema h4{
+         .sema h4{
         position: absolute;
         width: 430px;
         height: 40px;
@@ -87,3 +88,13 @@
         color: #000000;
         
         }
+        .sonuc{
+            position: absolute;
+            color: #09c213;
+            display: flex;
+            margin-top: 30rem;
+            margin-left: 36rem;
+  
+             
+          
+          }

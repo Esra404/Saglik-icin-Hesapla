@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,27 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="../stylePages/idealKilo.css">
 </head>
+
 <body>
-<nav>
+  <nav>
     <div class="logo">
       <p> <img src="../images/attachment_124010263-removebg-preview (1).png" alt=""> </p>
     </div>
-    
+
   </nav>
-  
-<header>
-  <div class="sema">
-      <h4 >İDEAL KİLO HESAPLAMA</h4>
-	  
-    
-  <div class="box">
-  <div class="container mt-3">
-    <form method="POST">
-      <div class="form-group row">
-        <label class="col-sm-2 col-form-label" for="weight"></label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" id="weight" name="Kilo" style=" box-sizing: border-box;
+
+  <header>
+    <div class="sema">
+      <h4>İDEAL KİLO HESAPLAMA</h4>
+
+
+      <div class="box">
+        <div class="container mt-3">
+          <form method="POST">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="weight"></label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="weight" name="Kilo" style=" box-sizing: border-box;
 
           
           
@@ -51,12 +53,12 @@
           align-self: stretch;
           flex-grow: 0;" placeholder="
           Kilonuzu kilogram olarak girin.">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-2 col-form-label" for="height" ></label>
-        <div class="col-sm-10">
-          <input class="form-control" id="height" name="BoyUzunluğu" type="number" style=" box-sizing: border-box;
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="height"></label>
+              <div class="col-sm-10">
+                <input class="form-control" id="height" name="BoyUzunluğu" type="number" style=" box-sizing: border-box;
 
           /* Auto layout */
           
@@ -78,14 +80,14 @@
           flex: none;
           order: 1;
           align-self: stretch;
-          flex-grow: 0;"  placeholder="
+          flex-grow: 0;" placeholder="
           Boyunuzu santimetre olarak girin.">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-2 col-form-label" for="height"  ></label>
-        <div class="col-sm-10">
-          <input class="form-control" id="sex" name="sex" type="text" style="box-sizing: border-box;
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="height"></label>
+              <div class="col-sm-10">
+                <input class="form-control" id="sex" name="sex" type="text" style="box-sizing: border-box;
 
           /* Auto layout */
           
@@ -106,16 +108,15 @@
           
           flex: none;
           order: 1;
-          flex-grow: 0;"  placeholder="Cinsiyetinizi girin.">
-          
-        </div>
-      </div>
-     <div class="buton">
-      <div class="form-group mt-3 row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-10 align-right">
-          <button type="submit"  name="Hesapla"
-          style="/* Auto layout */
+          flex-grow: 0;" placeholder="Cinsiyetinizi girin.">
+
+              </div>
+            </div>
+            <div class="buton">
+              <div class="form-group mt-3 row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10 align-right">
+                  <button type="submit" name="Hesapla" style="/* Auto layout */
 
           display: flex;
           flex-direction: row;
@@ -135,9 +136,8 @@
           flex: none;
           order: 4;
           align-self: stretch;
-          flex-grow: 0;"
-        
-          > <h5 style="width: 130px;
+          flex-grow: 0;">
+                    <h5 style="width: 130px;
           height: 40px;
           
           font-family: 'Rubik';
@@ -156,21 +156,21 @@
           
           flex: none;
           order: 0;
-          flex-grow: 0;">  Hesapla</h5>
-        </button>
+          flex-grow: 0;"> Hesapla</h5>
+                  </button>
+                </div>
+              </div>
+          </form>
         </div>
       </div>
-    </form>
-  </div>
-</div>
-</div>
+    </div>
   </header>
-    <div class="row"></div>
-      <div class="col-sm-2"></div>
-      <div class="col-sm-10 align-right">
-        
-  <div class="sonuc">
-  <?php
+  <div class="row"></div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-10 align-right">
+
+    <div class="sonuc3">
+      <?php
    
 function calculate($uzunluk, $kilo)
 {
@@ -201,10 +201,11 @@ function calculate($uzunluk, $kilo)
 $uzunluk = filter_var(htmlentities(floatval($_POST['BoyUzunluğu'])), FILTER_SANITIZE_NUMBER_FLOAT);
 $kilo = filter_var(htmlentities(floatval($_POST['Kilo'])), FILTER_SANITIZE_NUMBER_FLOAT);
 calculate($uzunluk, $kilo);
-?> 
-</div>
-    </div>
+?>
     </div>
   </div>
+  </div>
+  </div>
 </body>
+
 </html>

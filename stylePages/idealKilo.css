@@ -66,8 +66,7 @@
         border-radius: 50px;
             
             }
-            
-        header .sema h4{
+ .sema h4{
         position: absolute;
         width: 430px;
         height: 40px;
@@ -87,16 +86,16 @@
         color: #000000;
         
         }
-        header .box{
+      .box{
 
             margin-top: 10rem;
             margin-right: 20rem;
       
         
         }
-    .sonuc{
+.sonuc3{
           position: absolute;
-          color: #000000;
+          color: #00fc00;
           display: flex;
           left: 23rem;
           top: 10rem;
